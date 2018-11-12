@@ -11,7 +11,7 @@ mkdir -p tmp
 wget http://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz -O tmp/conll14st.tar.gz
 
 # uncompressing the files
-tar -xvzf tmp/conll14st.tar.gz -C tmp/
+tar -xvf tmp/conll14st.tar.gz -C tmp/ --no-same-owner
 
 mkdir -p test
 
